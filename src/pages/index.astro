@@ -1,0 +1,38 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    </head>
+    <body>
+        <Header />
+        <main>
+            <h1>Viitaaaaj na Marošovom blogu</h1>
+            <p>
+                Som veľmi prekvapený ak to budeš čítať, ale snažím sa najsť si
+                svoje random projekty, ktoré si môžem realizovať vo voľnom čase.
+                A keď tu pri tvorbe sedím o 4 ráno, s mojím bývalím kolegom v
+                učebni a snažíme sa dať dokopy web pre klienta, popri tom čo nás
+                elementor úplne odstavil je celkom zaujimavé mať vôbec uváženie
+                nad takýmito projektami.
+            </p>
+            <p>
+                Neviem sám vlastne o čom chcem písať, ale mám veľké množstvo
+                vecí, ktoré by som rád si niekde uložil do pamiatky v podobe
+                textu. A verím tomu, že aspoň jedného človeka to zaujime :D.
+            </p>
+            <p>
+                Som na 4 hodinách spánku skoro 24h hodín hore a už vidím halušky
+                a šaláty po stenách. Sem tam už ani rozprávať neviem. haha crazy
+                celkom. Mám už pocit že sa rozprávam sám so sebou niekedy... :D
+            </p>
+        </main>
+        <Footer />
+    </body>
+</html>
