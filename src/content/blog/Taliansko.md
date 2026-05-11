@@ -26,7 +26,7 @@ Nejaké tie random konverzácie s ľudmi počas exkurzie. Úplne od veci. Druhý
 
 ## Zmena?
 
-Akože skončili sme potom aj na našej izbe do 4 do rána, čo celkom kazilo plány ísť ešte ráno o 7 do mora. A akože vtedy som si povedal, že som spokojný že takto ma exkurzia vyzerať. Vďaka pánu Bohu. A ešte raz Adam sa ospravedlňujem za Rada, ktorý ti hodil moje mokré trenky skoro na ksicht... Ďaľší deň som aj viac spoznal svojho spolužiaka, ktorého rodičov poznám dosť, ale jeho ani moc nie. A ako sme kráčali Benátkami a spoznávali náhodné miesta v tých najdivnejších uličkách, kde bolo stále veľmi veľa ľudí.
+Akože skončili sme potom aj na našej izbe do 4 do rána, čo celkom kazilo plány ísť ešte ráno o 7 do mora. A akože vtedy som si povedal, že som spokojný že takto ma exkurzia vyzerať. Vďaka pánu Bohu. A ešte raz Adam sa ospravedlňujem za Rada, ktorý ti hodil moje mokré trenky skoro na ksicht... Ďaľší deň som aj viac spoznal svojho spolužiaka, ktorého rodičov poznám dosť, ale jeho ani moc nie. A ako sme kráčali Benátkami a spoznávali náhodné miesta v tých najdivnejších uličkách, kde bolo stále veľmi veľa ľudí. Sme skončili skupinka 5 s babami z inej triedy. To bolo vyslovene to čo mi chýbalo, aj poznať, kto chodí na gympel. Síce som tam už tretí rok, ale väčšinou poznám ľudí, ktorých som už poznal dávno predtým. A zrazu sme išli všetci tak nejak spoločne na večeru. Kde boli geniálne lasagne a cestoviny.
 
 ## Cesta naspäť
 
