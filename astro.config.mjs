@@ -1,5 +1,6 @@
 // @ts-check
 
+import cloudflare from '@astrojs/cloudflare';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig, fontProviders } from 'astro/config';
@@ -8,6 +9,9 @@ import { defineConfig, fontProviders } from 'astro/config';
 export default defineConfig({
 	site: 'https://blog.marosik.sk',
 	output: 'static',
+	adapter: cloudflare({
+		imageService: { build: 'compile', runtime: 'passthrough' },
+	}),
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
