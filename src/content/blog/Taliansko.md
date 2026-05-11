@@ -22,7 +22,7 @@ Ako vôbec myslím skupinky? V Miláne a potom vlastne aj v meste Brescia sme i�
 
 ## Čo mi chýbalo?
 
-Nejaké tie random konverzácie s ľudmi počas exkurzie. Úplne od veci. Druhý deň som si však spravil random tatkovskú fotku pri jazere lago di garda a to som bral ako malý úspech. Celkom zmena prišla druhú noc niekde pri Benátkach na ubytovaní. Po otrasných lazaniach a dobrej zmrzline sme radom sedeli na balkóne a rozprávali sme sa. Hovorili sme si práve, že boh vie čo to nie je a sú tu citujem "podivíni" (Asi by som nemusel mať stále predsudky voči ľudom). V momente čo sme sa smiali a posielali Linde hlasovku ako Rím bol geniálny a toto je meh a vyčítali sme im, že nešli s nami. Ako sme tak sedeli na balkóne, tak zrazu počujem že niekto na mňa kričí z hora. Najprv som myslel že zo strechy, ale nie ony boli iba na balkóne. A že máme dobehnúť. Tak beriem Rada že ideme hneď.
+Nejaké tie random konverzácie s ľudmi počas exkurzie. Úplne od veci. Druhý deň som si však spravil random tatkovskú fotku pri jazere lago di garda a to som bral ako malý úspech. Celkom zmena prišla druhú noc niekde pri Benátkach na ubytovaní. Po otrasných lazaniach a dobrej zmrzline sme s radom sedeli na balkóne a rozprávali sme sa. Hovorili sme si práve, že bohvie čo to nie je a sú tu citujem "podivíni" (Asi by som nemusel mať stále predsudky voči ľudom). V momente čo sme sa smiali a posielali Linde hlasovku ako Rím bol geniálny a toto je meh a vyčítali sme im, že nešli s nami. Ako sme tak sedeli na balkóne, tak zrazu počujem že niekto na mňa kričí z hora. Najprv som myslel že zo strechy, ale nie ony boli iba na balkóne. A že máme dobehnúť. Tak beriem Rada že ideme hneď.
 
 ## Zmena?
 
