@@ -3,7 +3,7 @@ title: "Ako si mám tvoriť personal brand?"
 description: "Bolo mi doporučené si spraviť personal brand"
 pubDate: 'May 12 2026'
 author: "Maroš"
-tags: ["podnikanie", "sebarozvoj", "co riesis?"]
+tags: ["philosophy", "random"]
 heroImage: '../../assets/maros.jpg'
 ---
 

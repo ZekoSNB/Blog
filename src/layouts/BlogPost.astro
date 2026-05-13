@@ -7,10 +7,19 @@ import Header from "../components/Header.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, tags } = Astro.props;
+
+const tagClass = (tag: string) => {
+    const map: Record<string, string> = {
+        travel: "tag-travel",
+        philosophy: "tag-philosophy",
+        random: "tag-random",
+    };
+    return map[tag.toLowerCase()] ?? "tag-random";
+};
 ---
 
-<html lang="en">
+<html lang="sk">
     <head>
         <BaseHead title={title} description={description} />
         <style>
@@ -19,37 +28,76 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
                 max-width: 100%;
                 margin: 0;
             }
+
             .hero-image {
                 width: 100%;
+                margin-bottom: 2em;
             }
+
             .hero-image img {
                 display: block;
                 margin: 0 auto;
-                border-radius: 12px;
+                max-height: 480px;
+                width: auto;
+                max-width: 100%;
+                border-radius: 5px;
                 box-shadow: var(--box-shadow);
+                object-fit: cover;
             }
+
             .prose {
                 width: 100%;
-                max-width: 960px;
+                max-width: 720px;
                 margin: auto;
-                padding: 1em;
-                color: rgb(var(--gray-dark));
+                padding: 0 1em 4em;
+                color: var(--text);
             }
-            .title {
-                margin-bottom: 1em;
-                padding: 1em 0;
+
+            .post-header {
+                margin-bottom: 2em;
+                padding-bottom: 1.5em;
+                border-bottom: 1px solid var(--border);
                 text-align: center;
-                line-height: 1;
             }
-            .title h1 {
-                margin: 0 0 0.5em 0;
+
+            .post-header h1 {
+                margin: 0.4em 0 0.5em;
+                font-size: 2.4em;
+                line-height: 1.15;
+                color: var(--text);
             }
-            .date {
-                margin-bottom: 0.5em;
-                color: rgb(var(--gray));
+
+            .meta {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.75em;
+                flex-wrap: wrap;
+                color: var(--text-muted);
+                font-size: 0.9em;
             }
-            .last-updated-on {
+
+            .meta time {
+                font-variant-numeric: tabular-nums;
+            }
+
+            .meta .sep {
+                opacity: 0.4;
+            }
+
+            .tags {
+                display: flex;
+                gap: 0.4em;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-top: 0.75em;
+            }
+
+            .last-updated {
+                margin-top: 0.4em;
                 font-style: italic;
+                font-size: 0.85em;
+                color: var(--text-muted);
             }
         </style>
     </head>
@@ -58,34 +106,34 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         <Header />
         <main>
             <article>
-                <div class="hero-image">
-                    {
-                        heroImage && (
-                            <img
-                                src={heroImage.src}
-                                style="width: 75%;"
-                                alt="heroImage"
-                                loading="lazy"
-                                decoding="async"
-                            />
-                        )
-                    }
-                </div>
+                {heroImage && (
+                    <div class="hero-image">
+                        <img
+                            src={heroImage.src}
+                            alt={title}
+                            loading="lazy"
+                            decoding="async"
+                        />
+                    </div>
+                )}
                 <div class="prose">
-                    <div class="title">
-                        <div class="date">
-                            <FormattedDate date={pubDate} />
-                            {
-                                updatedDate && (
-                                    <div class="last-updated-on">
-                                        Last updated on{" "}
-                                        <FormattedDate date={updatedDate} />
-                                    </div>
-                                )
-                            }
+                    <div class="post-header">
+                        <div class="meta">
+                            <time><FormattedDate date={pubDate} /></time>
                         </div>
+                        {tags && tags.length > 0 && (
+                            <div class="tags">
+                                {tags.map((tag) => (
+                                    <span class={`tag ${tagClass(tag)}`}>{tag}</span>
+                                ))}
+                            </div>
+                        )}
                         <h1>{title}</h1>
-                        <hr />
+                        {updatedDate && (
+                            <p class="last-updated">
+                                Aktualizované: <FormattedDate date={updatedDate} />
+                            </p>
+                        )}
                     </div>
                     <slot />
                 </div>

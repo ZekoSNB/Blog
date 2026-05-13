@@ -6,32 +6,157 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="sk">
     <head>
         <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+        <style>
+            .home-hero {
+                padding: 3em 0 2em;
+                border-bottom: 1px solid var(--border);
+                margin-bottom: 2.5em;
+            }
+
+            .home-hero h1 {
+                font-size: 2.4em;
+                margin: 0 0 0.5em;
+                line-height: 1.15;
+            }
+
+            .home-hero h1 span {
+                color: var(--accent);
+            }
+
+            .home-hero .intro {
+                color: var(--text-muted);
+                font-size: 1.05em;
+                line-height: 1.7;
+                max-width: 580px;
+                margin: 0 0 1.5em;
+            }
+
+            .home-actions {
+                display: flex;
+                gap: 0.75em;
+                flex-wrap: wrap;
+            }
+
+            .btn-primary {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.4em;
+                padding: 0.6em 1.25em;
+                background: var(--accent);
+                color: #fff;
+                border-radius: 4px;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 0.95em;
+                transition: background 0.15s ease, transform 0.15s ease;
+            }
+
+            .btn-primary:hover {
+                background: var(--accent-dark);
+                color: #fff;
+                transform: translateY(-1px);
+            }
+
+            .btn-secondary {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.4em;
+                padding: 0.6em 1.25em;
+                background: transparent;
+                color: var(--text-muted);
+                border: 1px solid var(--border);
+                border-radius: 4px;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 0.95em;
+                transition: border-color 0.15s ease, color 0.15s ease;
+            }
+
+            .btn-secondary:hover {
+                border-color: var(--accent);
+                color: var(--accent);
+            }
+
+            .section-title {
+                font-size: 0.8em;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--text-muted);
+                font-weight: 700;
+                margin: 0 0 1em;
+            }
+
+            .blurb-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1em;
+            }
+
+            @media (max-width: 600px) {
+                .blurb-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            .blurb-card {
+                padding: 1.25em;
+                border: 1px solid var(--border);
+                border-radius: 5px;
+                background: var(--card-bg);
+            }
+
+            .blurb-card .blurb-emoji {
+                font-size: 1.5em;
+                margin-bottom: 0.4em;
+                display: block;
+            }
+
+            .blurb-card p {
+                margin: 0;
+                color: var(--text-muted);
+                font-size: 0.9em;
+                line-height: 1.6;
+            }
+
+            .blurb-card strong {
+                color: var(--text);
+            }
+        </style>
     </head>
     <body>
         <Header />
         <main>
-            <h1>Viitaaaaj na Marošovom blogu</h1>
-            <p>
-                Som veľmi prekvapený ak to budeš čítať, ale snažím sa najsť si
-                svoje random projekty, ktoré si môžem realizovať vo voľnom čase.
-                A keď tu pri tvorbe sedím o 4 ráno, s mojím bývalím kolegom v
-                učebni a snažíme sa dať dokopy web pre klienta, popri tom čo nás
-                elementor úplne odstavil je celkom zaujimavé mať vôbec uváženie
-                nad takýmito projektami.
-            </p>
-            <p>
-                Neviem sám vlastne o čom chcem písať, ale mám veľké množstvo
-                vecí, ktoré by som rád si niekde uložil do pamiatky v podobe
-                textu. A verím tomu, že aspoň jedného človeka to zaujime :D.
-            </p>
-            <p>
-                Som na 4 hodinách spánku skoro 24h hodín hore a už vidím halušky
-                a šaláty po stenách. Sem tam už ani rozprávať neviem. haha crazy
-                celkom. Mám už pocit že sa rozprávam sám so sebou niekedy... :D
-            </p>
+            <div class="home-hero">
+                <h1>Vitaj na <span>Marošovom</span> blogu.</h1>
+                <p class="intro">
+                    Som prekvapený, že tu si. Píšem o cestovaní, podnikaní,
+                    filozofii a iných veciach, čo mi napadnú o 4 ráno pri káve.
+                    Sem-tam niečo zmysluplné. Hlavne nie.
+                </p>
+                <div class="home-actions">
+                    <a href="/blog" class="btn-primary">Čítaj blog →</a>
+                    <a href="/about" class="btn-secondary">O mne</a>
+                </div>
+            </div>
+
+            <p class="section-title">Čo tu nájdeš</p>
+            <div class="blurb-grid">
+                <div class="blurb-card">
+                    <span class="blurb-emoji">✈️</span>
+                    <p><strong>Travel</strong> — Výlety, exkurzie, náhodné konverzácie v cudzích mestách a jahody, ktoré smrdeli ako chemická zbraň.</p>
+                </div>
+                <div class="blurb-card">
+                    <span class="blurb-emoji">🧠</span>
+                    <p><strong>Philosophy</strong> — Otázky, ktoré mi padajú do hlavy keď by som mal spať. Odpovede zvyčajne nemám.</p>
+                </div>
+                <div class="blurb-card">
+                    <span class="blurb-emoji">🎲</span>
+                    <p><strong>Random</strong> — Všetko ostatné. Podnikanie, personal brand, prečo mám stále pocit že mám niečo zabudnuté.</p>
+                </div>
+            </div>
         </main>
         <Footer />
     </body>
