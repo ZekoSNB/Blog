@@ -6,94 +6,281 @@ import HeaderLink from "./HeaderLink.astro";
 <header>
     <nav>
         <h2><a href="/">{SITE_TITLE}</a></h2>
-        <div class="internal-links">
+
+        <div class="internal-links" id="nav-links">
             <HeaderLink href="/">Domov</HeaderLink>
             <HeaderLink href="/blog">Blog</HeaderLink>
             <HeaderLink href="/about">O mne</HeaderLink>
         </div>
-        <div class="social-links">
-            <a href="https://github.com/ZekoSNB" target="_blank">
-                <span class="sr-only">Príď na môj Github</span>
-                <svg
-                    viewBox="0 0 16 16"
-                    aria-hidden="true"
-                    width="32"
-                    height="32"
-                    ><path
-                        fill="currentColor"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-                    ></path></svg
-                >
-            </a>
-            <a href="https://instagram.com/_ozeko">
-                <span class="sr-only">Môj IG keby chceš stalkovať</span>
-                <svg
-                    fill="#000000"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    id="Camada_1"
-                    version="1.1"
-                    xml:space="preserve"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                    <g>
-                        <path
-                            d="M22.3,8.4c-0.8,0-1.4,0.6-1.4,1.4c0,0.8,0.6,1.4,1.4,1.4c0.8,0,1.4-0.6,1.4-1.4C23.7,9,23.1,8.4,22.3,8.4z"
-                        ></path>
 
-                        <path
-                            d="M16,10.2c-3.3,0-5.9,2.7-5.9,5.9s2.7,5.9,5.9,5.9s5.9-2.7,5.9-5.9S19.3,10.2,16,10.2z M16,19.9c-2.1,0-3.8-1.7-3.8-3.8   c0-2.1,1.7-3.8,3.8-3.8c2.1,0,3.8,1.7,3.8,3.8C19.8,18.2,18.1,19.9,16,19.9z"
-                        ></path>
+        <div class="right-side">
+            <div class="social-links">
+                <a href="https://github.com/ZekoSNB" target="_blank" aria-label="GitHub">
+                    <span class="sr-only">Príď na môj Github</span>
+                    <svg viewBox="0 0 16 16" aria-hidden="true" width="20" height="20">
+                        <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                    </svg>
+                </a>
+                <a href="https://instagram.com/_ozeko" target="_blank" aria-label="Instagram">
+                    <span class="sr-only">Môj IG keby chceš stalkovať</span>
+                    <svg fill="currentColor" width="20" height="20" viewBox="0 0 32 32" aria-hidden="true">
+                        <path d="M22.3,8.4c-0.8,0-1.4,0.6-1.4,1.4c0,0.8,0.6,1.4,1.4,1.4c0.8,0,1.4-0.6,1.4-1.4C23.7,9,23.1,8.4,22.3,8.4z"></path>
+                        <path d="M16,10.2c-3.3,0-5.9,2.7-5.9,5.9s2.7,5.9,5.9,5.9s5.9-2.7,5.9-5.9S19.3,10.2,16,10.2z M16,19.9c-2.1,0-3.8-1.7-3.8-3.8c0-2.1,1.7-3.8,3.8-3.8c2.1,0,3.8,1.7,3.8,3.8C19.8,18.2,18.1,19.9,16,19.9z"></path>
+                        <path d="M20.8,4h-9.5C7.2,4,4,7.2,4,11.2v9.5c0,4,3.2,7.2,7.2,7.2h9.5c4,0,7.2-3.2,7.2-7.2v-9.5C28,7.2,24.8,4,20.8,4z M25.7,20.8c0,2.7-2.2,5-5,5h-9.5c-2.7,0-5-2.2-5-5v-9.5c0-2.7,2.2-5,5-5h9.5c2.7,0,5,2.2,5,5V20.8z"></path>
+                    </svg>
+                </a>
+            </div>
 
-                        <path
-                            d="M20.8,4h-9.5C7.2,4,4,7.2,4,11.2v9.5c0,4,3.2,7.2,7.2,7.2h9.5c4,0,7.2-3.2,7.2-7.2v-9.5C28,7.2,24.8,4,20.8,4z M25.7,20.8   c0,2.7-2.2,5-5,5h-9.5c-2.7,0-5-2.2-5-5v-9.5c0-2.7,2.2-5,5-5h9.5c2.7,0,5,2.2,5,5V20.8z"
-                        ></path>
-                    </g>
+            <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
                 </svg>
-            </a>
+                <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 </header>
+
+<script>
+    // Theme toggle
+    const themeBtn = document.getElementById("theme-toggle");
+    const root = document.documentElement;
+
+    function updateIcon() {
+        const isDark = root.getAttribute("data-theme") === "dark";
+        themeBtn?.setAttribute("data-dark", isDark ? "true" : "false");
+    }
+    updateIcon();
+
+    themeBtn?.addEventListener("click", () => {
+        const next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+        root.setAttribute("data-theme", next);
+        localStorage.setItem("theme", next);
+        updateIcon();
+    });
+
+    // Hamburger
+    const menuBtn = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    menuBtn?.addEventListener("click", () => {
+        const open = navLinks?.classList.toggle("open");
+        menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
+        menuBtn.classList.toggle("open", !!open);
+    });
+
+    // Close on nav click (mobile)
+    navLinks?.querySelectorAll("a").forEach((a) => {
+        a.addEventListener("click", () => {
+            navLinks.classList.remove("open");
+            menuBtn?.setAttribute("aria-expanded", "false");
+            menuBtn?.classList.remove("open");
+        });
+    });
+</script>
+
 <style>
     header {
         margin: 0;
-        padding: 0 1em;
-        background: white;
-        box-shadow: 0 2px 8px rgba(var(--black), 5%);
+        padding: 0 1.5em;
+        background: var(--header-bg);
+        backdrop-filter: blur(8px);
+        border-bottom: 1px solid var(--border);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        transition: background 0.2s ease, border-color 0.2s ease;
     }
+
     h2 {
         margin: 0;
         font-size: 1em;
+        white-space: nowrap;
     }
 
     h2 a,
     h2 a.active {
         text-decoration: none;
+        color: var(--text);
+        font-weight: 700;
+        letter-spacing: -0.02em;
     }
+
+    h2 a:hover {
+        color: var(--accent);
+    }
+
     nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        height: 60px;
+        gap: 1em;
     }
-    nav a {
-        padding: 1em 0.5em;
-        color: var(--black);
-        border-bottom: 4px solid transparent;
+
+    .internal-links {
+        display: flex;
+        gap: 0.25em;
+    }
+
+    .internal-links a {
+        padding: 0.4em 0.75em;
+        color: var(--text-muted);
+        border-radius: 4px;
         text-decoration: none;
+        font-size: 0.95em;
+        transition: color 0.15s ease, background 0.15s ease;
+        white-space: nowrap;
     }
-    nav a.active {
-        text-decoration: none;
-        border-bottom-color: var(--accent);
+
+    .internal-links a:hover {
+        color: var(--text);
+        background: var(--bg-secondary);
     }
-    .social-links,
+
+    .internal-links a.active {
+        color: var(--accent);
+        font-weight: 600;
+        background: var(--accent-subtle);
+    }
+
+    .right-side {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .social-links {
+        display: flex;
+        align-items: center;
+        gap: 0.25em;
+    }
+
     .social-links a {
         display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.4em;
+        color: var(--text-muted);
+        border-radius: 4px;
+        text-decoration: none;
+        transition: color 0.15s ease, background 0.15s ease;
     }
+
+    .social-links a:hover {
+        color: var(--text);
+        background: var(--bg-secondary);
+    }
+
+    #theme-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        border: 1px solid var(--border);
+        border-radius: 5px;
+        background: transparent;
+        color: var(--text-muted);
+        cursor: pointer;
+        transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+        flex-shrink: 0;
+    }
+
+    #theme-toggle:hover {
+        color: var(--text);
+        background: var(--bg-secondary);
+        border-color: var(--accent);
+    }
+
+    #theme-toggle .icon-moon { display: block; }
+    #theme-toggle .icon-sun  { display: none; }
+    #theme-toggle[data-dark="true"] .icon-moon { display: none; }
+    #theme-toggle[data-dark="true"] .icon-sun  { display: block; }
+
+    /* Hamburger button */
+    .menu-toggle {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 34px;
+        height: 34px;
+        border: 1px solid var(--border);
+        border-radius: 5px;
+        background: transparent;
+        cursor: pointer;
+        padding: 0 8px;
+        flex-shrink: 0;
+        transition: border-color 0.15s ease;
+    }
+
+    .menu-toggle span {
+        display: block;
+        height: 2px;
+        background: var(--text-muted);
+        border-radius: 2px;
+        transition: transform 0.2s ease, opacity 0.2s ease, background 0.15s ease;
+    }
+
+    .menu-toggle:hover {
+        border-color: var(--accent);
+    }
+
+    .menu-toggle:hover span {
+        background: var(--text);
+    }
+
+    /* Animated X when open */
+    .menu-toggle.open span:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+    }
+    .menu-toggle.open span:nth-child(2) {
+        opacity: 0;
+    }
+    .menu-toggle.open span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+
     @media (max-width: 720px) {
         .social-links {
             display: none;
+        }
+
+        .menu-toggle {
+            display: flex;
+        }
+
+        .internal-links {
+            display: none;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            right: 0;
+            flex-direction: column;
+            background: var(--header-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 0.75em 1.5em 1em;
+            gap: 0.25em;
+            backdrop-filter: blur(8px);
+        }
+
+        .internal-links.open {
+            display: flex;
+        }
+
+        .internal-links a {
+            font-size: 1em;
+            padding: 0.6em 0.75em;
         }
     }
 </style>

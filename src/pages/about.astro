@@ -1,61 +1,304 @@
 ---
 import AboutHeroImage from "../assets/ja_rado.jpeg";
-import Layout from "../layouts/BlogPost.astro";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
 ---
 
-<Layout
-    title="O mne"
-    description="Ja neviem čo chceš o mne vedieť"
-    pubDate={new Date("May 11 2026")}
-    heroImage={AboutHeroImage}
->
-    <section class="about">
-        <h1>Ahoj, som Maroš.</h1>
+<!doctype html>
+<html lang="sk">
+    <head>
+        <BaseHead
+            title="O mne — Maroš Tomašov"
+            description="Tínedžer z Prievidze, ktorý namiesto normálnych tínedžerských vecí zakladá firmy."
+        />
+        <style>
+            .about-wrapper {
+                padding-bottom: 4em;
+            }
 
-        <p class="lead">
-            Som "tínedžer" z Prievidze, ktorý sa namiesto normálnych
-            tínedžerských vecí rozhodol založiť si firmu na vývoj webov a
-            aplikácií. Volá sa <strong>Optimatica</strong>. Áno, je to skutočná
-            firma. Nie, nespím dosť.
-        </p>
+            /* Hero */
+            .hero {
+                display: flex;
+                gap: 2em;
+                align-items: flex-start;
+                margin-bottom: 3em;
+            }
 
-        <h2>Čo robím</h2>
+            .hero-photo {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: top;
+                flex-shrink: 0;
+                border: 3px solid var(--accent);
+            }
 
-        <p>
-            Staviam digitálne veci pre lokálne firmy a e-commerce klientov —
-            weby, aplikácie, WooCommerce riešenia a všetko ostatné, čo mi bráni
-            ísť spať v rozumnú hodinu. Pracujem s TypeScriptom, Reactom,
-            WordPressom a PHP, väčšinou s kávou v ruke a hudbou v ušiach. Tím
-            mám 2–5 ľudí, záleží od týždňa a od toho, ako veľmi fungujem ako
-            ľudská bytosť.
-        </p>
+            .hero-text h1 {
+                font-size: 2em;
+                margin: 0 0 0.15em;
+                line-height: 1.1;
+            }
 
-        <h2>Kto som</h2>
+            .hero-text .subtitle {
+                color: var(--text-muted);
+                font-size: 1em;
+                margin: 0 0 0.75em;
+                line-height: 1.4;
+            }
 
-        <p>
-            Ambivert a nočný vták — čo v praxi znamená, že som unavený v
-            sociálnych aj izolovaných situáciách, len z iných dôvodov. Mám rád
-            lezenie, turistiku, šport a cestovanie. Kávu pijem, akoby to bola
-            osobnosť. Motivuje ma budovať niečo zmysluplné — alebo aspoň niečo,
-            čo nespôsobí výpadok v produkcii. Latka sa mení každý deň.
-        </p>
+            .hero-text .subtitle strong {
+                color: var(--accent);
+            }
 
-        <h2>Kde ma nájdeš</h2>
+            /* Sections */
+            .section {
+                margin-bottom: 2.5em;
+                padding-left: 1em;
+                border-left: 3px solid var(--border);
+                transition: border-color 0.2s ease;
+            }
 
-        <p>
-            Zvyčajne pri počítači niekde v Prievidzi, technicky stále na
-            strednej škole, pritom <em>nejako</em> riadim firmu. Ak ma hľadáš — pozri
-            na <a href="https://optimatica.sk">optimatica.sk</a> alebo na <a
-                href="https://marosik.sk">marosik.sk</a
-            >.
-        </p>
+            .section:hover {
+                border-left-color: var(--accent);
+            }
 
-        <p class="disclaimer">
-            <small>
-                Tento text napísala AI, pretože Maroš bol príliš ospalý a
-                lenivý, aby to urobil sám. Prečítal ho pri siedmej káve a vágne
-                prikývol. Dosť dobré.
-            </small>
-        </p>
-    </section>
-</Layout>
+            .section h2 {
+                font-size: 1em;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--text-muted);
+                margin: 0 0 0.75em;
+                font-weight: 700;
+            }
+
+            .section p {
+                color: var(--text);
+                margin: 0 0 0.75em;
+                line-height: 1.7;
+                font-size: 0.95em;
+            }
+
+            .section p:last-child {
+                margin-bottom: 0;
+            }
+
+            /* Tech stack */
+            .stack {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5em;
+                margin-top: 0.5em;
+            }
+
+            .stack-item {
+                padding: 0.3em 0.75em;
+                border-radius: 3px;
+                background: var(--bg-secondary);
+                border: 1px solid var(--border);
+                font-size: 0.82em;
+                font-weight: 600;
+                color: var(--text-muted);
+                font-family: monospace;
+            }
+
+            /* Interests */
+            .interests {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5em;
+                margin-top: 0.5em;
+            }
+
+            .interest-item {
+                display: flex;
+                align-items: center;
+                gap: 0.35em;
+                padding: 0.35em 0.8em;
+                border-radius: 4px;
+                background: var(--bg-secondary);
+                border: 1px solid var(--border);
+                font-size: 0.88em;
+                color: var(--text);
+            }
+
+            /* Links */
+            .links {
+                display: flex;
+                gap: 0.75em;
+                flex-wrap: wrap;
+                margin-top: 0.75em;
+            }
+
+            .link-card {
+                display: flex;
+                flex-direction: column;
+                padding: 0.9em 1.2em;
+                border-radius: 5px;
+                border: 1px solid var(--border);
+                background: var(--card-bg);
+                text-decoration: none;
+                color: var(--text);
+                transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+                min-width: 150px;
+                flex: 1;
+            }
+
+            .link-card:hover {
+                border-color: var(--accent);
+                box-shadow: var(--shadow);
+                transform: translateY(-2px);
+                color: var(--text);
+            }
+
+            .link-card-label {
+                font-size: 0.75em;
+                text-transform: uppercase;
+                letter-spacing: 0.06em;
+                color: var(--text-muted);
+                margin-bottom: 0.2em;
+            }
+
+            .link-card-url {
+                font-weight: 600;
+                font-size: 0.9em;
+                color: var(--accent);
+            }
+
+            /* Disclaimer */
+            .disclaimer {
+                margin-top: 3em;
+                padding: 1em 1.25em;
+                border-radius: 4px;
+                background: var(--bg-secondary);
+                border: 1px dashed var(--border);
+                color: var(--text-muted);
+                font-size: 0.82em;
+                line-height: 1.6;
+            }
+
+            @media (max-width: 600px) {
+                .about-wrapper {
+                    padding: 2em 1em 3em;
+                }
+
+                .hero {
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    gap: 1.25em;
+                    margin-bottom: 2em;
+                }
+
+                .hero-photo {
+                    width: 90px;
+                    height: 90px;
+                }
+
+                .hero-text h1 {
+                    font-size: 1.6em;
+                }
+
+                .stack,
+                .interests {
+                    justify-content: center;
+                }
+
+                .links {
+                    flex-direction: column;
+                }
+
+                .link-card {
+                    min-width: unset;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <Header />
+        <main class="about-wrapper">
+            <div class="hero">
+                <img
+                    src={AboutHeroImage.src}
+                    alt="Maroš Tomašov"
+                    class="hero-photo"
+                    loading="eager"
+                />
+                <div class="hero-text">
+                    <h1>Ahoj, som Maroš.</h1>
+                    <p class="subtitle">
+                        Tínedžer z Prievidze, zakladateľ <strong>Optimatica</strong>
+                        — firmy na vývoj webov a aplikácií.<br />
+                        Áno, stále som na strednej. Nie, nespím dosť.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Čo robím</h2>
+                <p>
+                    Staviam digitálne veci pre lokálne firmy a e-commerce klientov —
+                    weby, aplikácie, WooCommerce riešenia a všetko ostatné, čo mi bráni
+                    ísť spať v rozumnú hodinu. Pracujem väčšinou s kávou v ruke a
+                    hudbou v ušiach. Tím mám 2–5 ľudí, záleží od týždňa.
+                </p>
+                <div class="stack">
+                    <span class="stack-item">TypeScript</span>
+                    <span class="stack-item">React</span>
+                    <span class="stack-item">Astro</span>
+                    <span class="stack-item">WordPress</span>
+                    <span class="stack-item">PHP</span>
+                    <span class="stack-item">WooCommerce</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Kto som</h2>
+                <p>
+                    Ambivert a nočný vták — čo v praxi znamená, že som unavený
+                    v sociálnych aj izolovaných situáciách, len z iných dôvodov.
+                    Motivuje ma budovať niečo zmysluplné, alebo aspoň niečo, čo
+                    nespôsobí výpadok v produkcii. Latka sa mení každý deň.
+                </p>
+                <div class="interests">
+                    <span class="interest-item">🧗 Lezenie</span>
+                    <span class="interest-item">🥾 Turistika</span>
+                    <span class="interest-item">✈️ Cestovanie</span>
+                    <span class="interest-item">☕ Káva</span>
+                    <span class="interest-item">🏃 Šport</span>
+                    <span class="interest-item">🎵 Hudba</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Kde ma nájdeš</h2>
+                <p>
+                    Zvyčajne pri počítači niekde v Prievidzi. Ak potrebuješ pomôcť
+                    s webom, aplikáciou alebo len chceš povedať ahoj:
+                </p>
+                <div class="links">
+                    <a href="https://optimatica.sk" target="_blank" class="link-card">
+                        <span class="link-card-label">Firma</span>
+                        <span class="link-card-url">optimatica.sk</span>
+                    </a>
+                    <a href="https://marosik.sk" target="_blank" class="link-card">
+                        <span class="link-card-label">Osobná stránka</span>
+                        <span class="link-card-url">marosik.sk</span>
+                    </a>
+                    <a href="https://instagram.com/_ozeko" target="_blank" class="link-card">
+                        <span class="link-card-label">Instagram</span>
+                        <span class="link-card-url">@_ozeko</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="disclaimer">
+                <strong>Poznámka:</strong> Tento text napísala AI, pretože Maroš bol
+                príliš ospalý a lenivý, aby to urobil sám. Prečítal ho pri siedmej
+                káve a vágne prikývol. Dosť dobré.
+            </div>
+        </main>
+        <Footer />
+    </body>
+</html>

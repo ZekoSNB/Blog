@@ -3,7 +3,7 @@ title: "Taliansko"
 description: "Ako to celé vlastne zhrnúť ja ani sám neviem :D"
 pubDate: 'May 11 2026'
 author: "Maroš"
-tags: ["astro", "web", "tutorial"]
+tags: ["travel"]
 heroImage: '../../assets/taliansko_feature.jpeg'
 ---
 
