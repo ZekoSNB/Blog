@@ -1,0 +1,76 @@
+---
+title: "Vyšší Brod & Praha ❤️"
+description: "Ďaleko od domova, sám so sebou..."
+pubDate: 'June 4 2026'
+author: "Maroš"
+tags: ["travel"]
+heroImage: '../../assets/Praha/hero.jpeg'
+---
+
+## Vyšší brod
+
+### Komplikácie
+
+Ešte som ani nevycestoval a už sa mi zas a znova krížili dátumy... Už ma raz z toho vykotí, môj nápad riešenia bolo ísť o deň skôr z Vyššieho brodu aby som prišiel vo Štvrtok ráno do PD. Učiteľka aj mamina sa ma pýtali či sa to oplatí. Ako som sa s učiteľkou roprával som si spravil vtip, že aspoň uvidím Prahu spoza okna, že milujem to mesto. Ona navrhla, že čo keby strávim celý deň v Prahe a vravím si že prečo nie. Takže vlastne čo mala byť najprv komplikácia sa asi po 3h vybavovania medzi učiteľmi a papiermi ako nádherná príležitosť. A tak som sa už začal tešiť.
+
+### Zas a znova autobus...
+Ako by mi z Talianska nestačilo, zase idem do autobusu s tým že ma asi šibne. Tentokrát som však spravil posun so spánkom. Aby som si mohol byť istý že prespím cestu, tak som ani nešiel spať. Teda vlastne mohol som asi na hodinu, ale stres z toho že by som zaspal bol väčší ako moja potreba spánku. A prečo som vlastne bol tak do noci hore? Lebo zas som vykecával s niekým. Ach jaj, bolo by na čase zobrať rozum z niekade haha. Tentokrát však cestu mi prerušovala práca, ktorú som mal stále na hlave a mal potrebu spraviť, lebo som to sľúbil a už ma trochu tlačil deadline. Teda počkalo by to, ale moja najlepšia antisociálna zábavka je práca, takže behom chvíle som vyťahoval mac a pracoval. Bolo mi veľmi fajn, až napokon ma po káve, 2x monster a red bulle kopla aj tak únava a zaspal som. Očividne už aj kofein mi nepomáha na moju únavu.
+
+### Splav
+
+Nejakou náhodou som bol vybraný za kapitána raftu. Síce sme všetci na jednom rafte spolu, musí mať každý nejakú úlohu. Resp. Kto sedí v predu má bližšie k niečomu atď. Ja som bol vzadu, kormidloval a rozkazoval. haha milujem rozkazovať, ale nie je to tak jednoduché, pretože som cítil zodpovednosť za motiváciu, morálku a dobrú náladu na našom rafte. Kedže som súťažívý, tak som sa snažil pretlačiť mojou energiou ich sily aby sme išli na 110%, potom sa však prišiel na to že to nefunguje a išiel som na to iným spôsobom. **LÁSKOU**. Vlastne moja motivácia bola dobrá nálada a oznam ako moc ich ľúbim haha. Samozrejme moja súťaživosť bola cez strop, pochopil som že to nie je iba o tom byť prvý, ale treba mať aj dobrý čas spolu ako trieda, lebo nie každý bude mať tak dobrý pocit z toho že je prvý ako ja. Všetci sme iní. Aj tak si myslím že sme to vyhrali v bode, kedy sme totálne vodou ostriekali 3 rafty a my sme skončili suchý. Myslím si že ako vodná jednotka do vojny by sme boli dobrý. Rýchli útok a hneď preč. Úplne geniálne, milujem vás. A neskôr som skončil na inom rafte. Trošku sme sa pobili a ja som nejakým zázrakom skončil vo vode už druhý krát pri bitke prečo od svojho raftu, tak som skočil k Radovi na raft, ktorý bol na inom, najprv ma vyhodil do vody a po tom čo som tam skočil znova pochopil, že sa ma asi nezbaví, keď som začal pádlovať s nimi a pomáhať im... No som taký mierný imposter haha. Využíjem najlepšej možnosti, ktorú mám pod rukami. Za mňa bol celý splav a som vďačný mojim kolegovcom na rafte, pretože bolo s vami super. Ešte raz by som išiel.
+
+### Český krumlov
+
+![Český krumlov](../../assets/Praha/krumlov.jpeg)
+
+Tu sme skončili náš splav, teda ďalej od mesta, ale pešo sme sa presunuli do Centra, kde sme mali asi 3h rozchod. Išli sme s Radom si dať kávu, to už je viac menej isté že keď sa začne rozchod my už bežíme do kaviarne, ktorú sme našli na ECT. A po ceste sme našli obchod so suvenýrmi, kde ma silou mocou začal prehovárať nech kúpim niekomu magnetku, ja som nechcel a vlastne ani nechcem, ale aby som mal pokoj a mohol mu vrátiť to isté som si ju kúpil. Celkom sa mi páči a mám s ňou pekný nápad ako využiť to, že sú to zároveň aj zápalky. Avšak si nemyslím, že to niekomu dám a ostane u mňa medzi ďaľšími cestovateľskými magnetkami. Ako sme sa presunuli na kávu, tak ostalo ticho. Také príjemné. Nerozprávali sme sa. Len sme nasávali atmosféru a ja som premýšľal, až pokým som sa asi po 20 minútach rozmýšľania z modrého neba nespýtal na nejakú názorovú vec na mňa ako osobu. A dospel som k názoru, že moje správanie môže navonok tak vyzerať, ale kedže ma on pozná vie že to je blbosť. A ešte k tomu že žijem veci, ktoré väčšinou robia ľudia už v omnoho staršom veku... Som starý no... Ale v dobrom, samozrejme mi je Rado najbližší, takže vie aký som a kto som. Potom sme šli na pizzu, kde sme mali ďalekú prechádzku asi 20m ak aj to vôbec a dali sme si tak geniálnu pizzu, že mi bolo do nej priam ľúto zahryznúť, ale mám pocit že vo mne vyvovala filozofické myšlienky, ktoré sú na fotke hahah.
+
+![Filozofická pizza](../../assets/Praha/pizza.jpeg)
+
+Popri jedení pizze som ho pekne nasral, pretože som mu povedal čo spravil a že je vlastne čistý debil. Prečo? LEBO TEN CHLAPEC JE SLEPÝ AKO PANVICA LETIACA BALISTICKOU KRIVKOU PONAD POĽSKOM. *Neviem z kade prišla táto potreba to napísať, ale nechám to tam.* A potom sme stretli tamaru, zoju, terezu, emu a pripojili sme sa k nim. Vtedy mi asi došla sociálna baterka a ostal som tak trochu zamyslený kvôli nejakým okolnostiam, ktoré nastali + únava. Ako sme išli tak centrom, tak som ostal veľmi hlboko zamyslený a uvedomil som si jedno. Že sa bojím ísť na SNP. Nie kvôli medveďom, fyzickej sile, zraneniu, ale kvôli ľudom. Proste chcem to ísť bez mobilu a sú tu ľudia, ktorý mi budú chýbať a neviem aké je to im nedať mesiac vedieť. Síce asi im to moc prekážať nebude, ale obávam sa toho. Taktiež to že za 8 dní už budem sedieť vo vlaku na východ. Ten čas ide strašne rýchlo... Ako sme prišli naspäť na chatky, tak som sa už moc nesocializoval aj keď som bol u nich na chatke, tak som čumel do mobilu zase... Ale bolo mi lepšie ako na silu komunikovať s inými.
+
+#### Ideálny život
+
+Hrali tam nejakú kartovú hru s otázkami. Neviem ako sa to volalo, ale každý mal odpovedať na svoju predstavu ideálneho života. Každý niečo povedal a ja som len ostal rozmýšľať, že čo viac chcem ako mám teraz. A prišiel som k tomuto záveru
+
++ Deti
++ Pes
++ Vlastný dom
++ Auto
+
+toto sú skôr krátkodobé ciele alebo veci, ktoré chcem, nie úplne odpoveď na ideálny život. A vtedy mi to došlo, že ja už si žijem formu svojho ideálneho života. Áno potrebujem ešte doladiť veci, a naučiť sa s tým pracovať, aby som mal lepšiu organizáciu, ale to ako žijem, je niečo po čom som posledných pár rokov túžil, teda viac menej od 12 aktívne túžil. A mám 18 a som tu a žijem si svoj detský sen programátora a cestovateľa haha. Už len mať niekoho stabilného, psa a deti a úžasné auto a už som asi ready aj na smrť... Ironicky samozrejme lebo vtedy prídu nové ciele.
+
+## Praha
+
+Ako som vystúpil z Vlaku po miliarde výlukách a prestupov pri Českých Budejoviciach už som zas a znova išiel na kávu si dokončiť povinnosti, ktoré ma čakali. Bol som sám zo seba prekvapený ako produktívny som bol na úplne jednoduchom setupe. Čo však bolo ešte lepšie že sa nič nepokazilo. Ja neviem čo, ale počas programovania vecí sa nič nepokazilo a všetko fungovalo na prvý raz ako som chcel. No proste bol to úplný chillik, ale že fakt. Veď len pozrite na ten setup, ten už sám za seba hovorí že to bude fajn.
+
+![Filozofická pizza](../../assets/Praha/setupik.jpeg)
+
+Počas tohto mi však počasie neprialo a keď som sa rozhodol ísť na kyvadlo, tak nepršalo, ale bolo zamračené. Výhľad však stále bol magický a pekný.
+
+![Filozofická pizza](../../assets/Praha/stalin.jpeg)
+
+Z tadeto som sa rozhodol ísť na burger na odporučenie od [Klukov z prahy](https://www.instagram.com/klucizprahy). Nemám fotku, ale ten Burger bol už len na pohľad úžasný a ešte lepšie mi bolo keď som ho zjedol. Keď som sa išiel potom prejsť na ostrov, tak som si začal čítať knihu a práve vtedy mi začalo pršať... Ako nevedel som či si zo mňa chchú robiť srandu alebo mi čítanie kníh fakt nie je súdené. Tak som išiel na kávu pracovať. Keď už som videl že je 16:00 rozhodol som sa ísť na vyšehrad. Ako som zobral električku, tak som sa išiel ešte kúsok prejsť na most, ktorý som "nepoznal", ako som naň vybehol, tak som prišiel na to že ho poznám a vlastne je to miesto, ktoré som videl v jednom sociálnom experimente na internete. A toto som mal naprieč celou Prahou, že to vlastne mesto poznám, ale nie. Na Vyšehrade ma zaliala myšlienka toho že som proste tu sám, 400km od domu v Prahe a život je úplne úžasný, keď ma človek takéto možnosti. A fakt že je. Nič viac mi v ten moment nechýbalo, až na niekoho možno so sebou, ale na to ešte bude čas. Tentokrát Rado nemohol no... Vtedy som volal mamine že som rád že som ju nepočúval, pretože by som išiel na vlak o 14:00 a prišiel by som presne o takýto moment, ktorý mi dáva motiváciu ďalej cestovať naprieč svetom haha.
+
+### Myšlienky
+
+Keď človek cestuje sám, má čas rozmýšľať. To mám na cestovaní sám veľmi rád, lebo oddychujete a máte čas premýšľať. A sledoval som ľudí okolo seba a pozeral sa na človeka jednotlivo a bol som si vedomí že všetci majú vlastný život, možno niekam sa ponáhľajú a ja si tu užívam deň. Niekomu sa narodilo dieťa. Každý ma vlastný svet a je to nádherné, lebo na konci dňa všetci prispievame svojou činnosťou do len jednej spoločnosti. Je to ako taký strom, kde koruna je spoločnosť, ale strom samotný je rozvetvený do stoviek konárov alebo koreňov. Proste nádhera.
+
+#### Deluzionalita je dobrá vlastnosť?
+
+Neviem či je to správne napísané, ale po ceste do Prahy som pozeral video skôr ako filozofiu/paradox, že deluzionálný človek to dotiahne ďalej. Prečo? Pretože sa pozerá na výsledok a nie na cestu a robí čokoľvek aby dosiahol toho výsledku. Čo je veľmi super vlastnosť. Dovolím si tvrdiť že aj ja ju mám, pretože až moc snívam, kvôli  tomu že snívam som sa rozhodol spraviť veci, na ktoré mi skoro každý povedal, že sú nereálne až pokým to nevideli že to ide. Avšak keď sa pozreli na takýchto ľudí, tak prišli na to že aj veľkou úlohou bolo šťastie. Ako to však vplýva na to? Napr. Politici sú ľudia, ktorý teda niečo dokázali cez tvrdú robotu a veľkú snahu a veľkú víziu, ale aj šťastie. A na to šťastie zabudnú, tým pádom nastane taká milná predstava o tom že každý kto nedosiahol niečo v živote ako oni, sa len nesnaží a je lenivý. Avšak nesúhlasili by ľudia, ktorý sa snažili veľmi moc, ale prostredie (šťastie) im neprialo a nepodarilo sa im to, kvôli okolnostiam, ktoré mali. Čo je proste realita, ja sám sa snažím veľmi moc a kvôli šťastiu som dosiahol niečo, čo nemá každý 18 ročný človek. Ešte neviem kde budem o rok, možno padnem tak dolu vodou, že sa z toho už nevyhrabem a skončím brázdiť ulicami, ešte je moc skoro na to povedať či som úspešný alebo nie. Akurát ako som pozeral to video, tak mi to akurát pekne rozvinulo jednu myšlienku/dilemu (haha počítače čítajú moje myšlienky a počúvaju moje telefonáty). A to bolo presne to vnímanie ľudí. Síce pracujem veľmi veľa, mám vízie, snahu, snažím sa byť prísny na seba a využitie svojho času a trošku hyperaktívny, tým myslím že neobsedím, ku mne prišla informácia, že by som mal vnímať ľudí ako niečo menej, keď nerobia toľko čo ja. Čo by síce dávalo logický význam, ale pri tom mi to príde ako somarina, čo sa teda protirečí s tým videom. Pretože som pre seba a možno aj mojich rovesníkov niečo dokázal, ja seba samého vnímam ako niekoho, kto ešte nič také nedokázal v hlbokom zmysle. To myslím tak, že áno dokázal som už niečo spraviť, ale nie je to vôbec porovnateľné s tým čo dokážu ľudia v mojom okolí. Mám známeho, ktorý ma podnikanie, študuje právo, rodinu a všetko to stíha a celkom zarába. Oproti nemu sa cítim ako nula, ale že úplná. A on mi to nikdy nedal najavo a práve mi podal pomocnú ruku. Za čo som vďačný lebo keby nebolo jeho, tak nie som ani ja tam kde som, ale že vôbec. On bol prvý človek, ktorý mi pomohol niečo začať a dokázať. Tak preto keď mi prišla táto informácia od niekoho koho vnímam ako veľmi blízkeho človeka, ku ktorému tiež určitým spôsobom vzhliadam, tak ma to celkom dostalo. Pretože môj známy do mňa vštiepil takú tu morálnu zásadu, že treba pomôcť, nikdy nevieš čo z toho bude a nepozerať sa na ľudí nijako zle. Pretože stále rastú, tak ako som rástol popri ňom aj ja. Ale nie všetci rastú rovnakým smerom, preto keď niekto nerastie v rovnakom smere ako ty, neznamená že je o nič horší...
+
+Je to celkom vec, o ktorej som sa rozpísal, lebo ma to nie že nahnevalo, ale mňa osobne sklamalo, že ako vystupujem pred ľudmi a nad týmto som rozmýšľal veľkú časť Prahy a vlastne stále, tak nejak rozmýšľam. Pretože mi príde že každý ma možnosť a príležitosť dosiahnuť niečo, niečo iné. Každý je iný. Áno sú ľudia, na ktorých sa teda na prvý pohľad nebudem pozerať moc kladne, ale aj tý budú mať niečo do seba. A sám nechcem vystupovať ako niekto povýšenecký. Mám na to povahu, takže to môže byť také, ale chcem sa tomu vyhnúť. Lebo sme všetci len ľudia, ktorý žiju raz.
+
+### Cesta domov
+
+Nakonci dňa som sa presunul na Žižkov, na výhľad, kde som volal s ocinom a kedže som skoro celý ďen nemal s nikým dialóg, tak som mu ani nedal priestor zrušiť telefonát, lebo som sa chcel rozprávať.
+
+![Filozofická pizza](../../assets/Praha/zapadik.jpeg)
+
+Ako som pozeral západ slnka už do mňa prišiel smútok z toho že musím ísť domov a že mám zase za sebou úplne úžasný výlet. Ako som nastúpil do vlaku, asi po 1h ma úplne odpálilo a zobudil som sa vďaka bohu v Žiline, takže som skoro celú cestu prespal. Vo Vrútkach som ako bezďák necelé 2h čakal na Vlak do PD, kde keď som už nastúpil, ma cez nesmiernú bolesť zo sedenia aj tak vyplo. Zobudila ma vlak vedúca na kontrolu lístka, čo som sa ledva poskladal aby som jej ho ukázal. Neskôr som sa zobudil v Handlovej s tým že sa idem len otočiť a idem spať ďalej. A v tom som si všimol jedného chalana, poznali sme sa, ale zároveň ja som to nefeeloval na konverzáciu. Neviem či si ma všimol alebo nie. A zrazu moja sociálna nervozita vyhrala a ja som bol už prebratý kompletne. Snažil som sa spať, ale to nešlo. Nevedel som či sa pozdraviť, ale bál som sa konverzácie a hlavne som vyzeral po 10h cestovanie hrozne. Nakoniec sme sa iba pozdravili a asi to bolo chill, ale na chvíľu ma skoro jeblo. Pretože som proste nevedel čo mám robiť aby som nebol weird. A pravdepodobne tým že nad tým takto rozmýšľam som weird. O môj bože, prečo to nemôže byť tak ľahké ako podnikanie 😭.
+
+## PS
+
+Užil som si tento výlet a som vďačný za každého človeka na rafte a myšlienku, ktorý mi tento výlet dal. Zas a znova mám chuť precestovať celý svet. Teda nie znova, ja ju mám stále. Milujem cestovanie a tam to asi aj skončí haha. Ďakujem za pozornosť haha.

@@ -1,19 +1,28 @@
 ---
-import { Github, Instagram } from "lucide-astro";
+import { Github, Instagram } from "@lucide/astro";
 const today = new Date();
 ---
 
 <footer>
     <div class="footer-inner">
         <p class="copyright">
-            &copy; {today.getFullYear()} Maroš Tomašov (Ozeko). Všetko je moje. Ver mi.
+            &copy; {today.getFullYear()} Maroš Tomašov (Ozeko). Všetko je moje. Ver
+            mi.
         </p>
         <div class="social-links">
-            <a href="https://github.com/ZekoSNB" target="_blank" aria-label="GitHub">
+            <a
+                href="https://github.com/ZekoSNB"
+                target="_blank"
+                aria-label="GitHub"
+            >
                 <span class="sr-only">Príd na môj Github</span>
                 <Github size={20} />
             </a>
-            <a href="https://instagram.com/_ozeko" target="_blank" aria-label="Instagram">
+            <a
+                href="https://instagram.com/_ozeko"
+                target="_blank"
+                aria-label="Instagram"
+            >
                 <span class="sr-only">Môj IG keby chceš stalkovať</span>
                 <Instagram size={20} />
             </a>
@@ -25,7 +34,9 @@ const today = new Date();
     footer {
         border-top: 1px solid var(--border);
         background: var(--bg-secondary);
-        transition: background 0.2s ease, border-color 0.2s ease;
+        transition:
+            background 0.2s ease,
+            border-color 0.2s ease;
     }
 
     .footer-inner {
@@ -59,7 +70,9 @@ const today = new Date();
         color: var(--accent);
         border-radius: 4px;
         text-decoration: none;
-        transition: opacity 0.15s ease, background 0.15s ease;
+        transition:
+            opacity 0.15s ease,
+            background 0.15s ease;
     }
 
     .social-links a:hover {
