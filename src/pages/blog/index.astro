@@ -25,7 +25,10 @@ const tagClass = (tag: string) => {
 <!doctype html>
 <html lang="sk">
     <head>
-        <BaseHead title={`Blog — ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+        <BaseHead
+            title={`Blog — ${SITE_TITLE}`}
+            description={SITE_DESCRIPTION}
+        />
         <style>
             .page-header {
                 margin-bottom: 2em;
@@ -85,13 +88,17 @@ const tagClass = (tag: string) => {
                 display: grid;
                 grid-template-columns: 200px 1fr;
                 gap: 1.5em;
+                cursor: pointer;
                 background: var(--card-bg);
                 border: 1px solid var(--border);
                 border-radius: 6px;
                 overflow: hidden;
                 text-decoration: none;
                 color: inherit;
-                transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+                transition:
+                    border-color 0.15s ease,
+                    box-shadow 0.15s ease,
+                    transform 0.15s ease;
             }
 
             .post-card:hover {
@@ -194,52 +201,70 @@ const tagClass = (tag: string) => {
         <main>
             <div class="page-header">
                 <h1>Blog</h1>
-                <p>{posts.length} {posts.length === 1 ? "príspevok" : "príspevky"}</p>
+                <p>
+                    {posts.length}
+                    {posts.length === 1 ? "príspevok" : "príspevky"}
+                </p>
             </div>
 
             <div class="filter-bar">
-                <button class="filter-btn active" data-filter="all">Všetko</button>
-                {allTags.map((tag) => (
-                    <button class={`filter-btn`} data-filter={tag}>
-                        {tag.charAt(0).toUpperCase() + tag.slice(1)}
-                    </button>
-                ))}
+                <button class="filter-btn active" data-filter="all"
+                    >Všetko</button
+                >
+                {
+                    allTags.map((tag) => (
+                        <button class={`filter-btn`} data-filter={tag}>
+                            {tag.charAt(0).toUpperCase() + tag.slice(1)}
+                        </button>
+                    ))
+                }
             </div>
 
             <div class="posts-grid" id="posts-grid">
-                {posts.map((post) => (
-                    <a
-                        href={`/blog/${post.id}/`}
-                        class="post-card"
-                        data-tags={JSON.stringify(post.data.tags ?? [])}
-                    >
-                        {post.data.heroImage ? (
-                            <img
-                                class="post-card-img"
-                                src={post.data.heroImage.src}
-                                alt={post.data.title}
-                                loading="lazy"
-                                decoding="async"
-                            />
-                        ) : (
-                            <div class="post-card-img-placeholder">✍️</div>
-                        )}
-                        <div class="post-card-body">
-                            {post.data.tags && post.data.tags.length > 0 && (
-                                <div class="post-card-tags">
-                                    {post.data.tags.map((tag) => (
-                                        <span class={`tag ${tagClass(tag)}`}>{tag}</span>
-                                    ))}
-                                </div>
+                {
+                    posts.map((post) => (
+                        <a
+                            href={`/blog/${post.id}/`}
+                            class="post-card"
+                            data-tags={JSON.stringify(post.data.tags ?? [])}
+                        >
+                            {post.data.heroImage ? (
+                                <img
+                                    class="post-card-img"
+                                    src={post.data.heroImage.src}
+                                    alt={post.data.title}
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            ) : (
+                                <div class="post-card-img-placeholder">✍️</div>
                             )}
-                            <h2 class="post-card-title">{post.data.title}</h2>
-                            <p class="post-card-desc">{post.data.description}</p>
-                            <p class="post-card-date">
-                                <FormattedDate date={post.data.pubDate} />
-                            </p>
-                        </div>
-                    </a>
-                ))}
+                            <div class="post-card-body">
+                                {post.data.tags &&
+                                    post.data.tags.length > 0 && (
+                                        <div class="post-card-tags">
+                                            {post.data.tags.map((tag) => (
+                                                <span
+                                                    class={`tag ${tagClass(tag)}`}
+                                                >
+                                                    {tag}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    )}
+                                <h2 class="post-card-title">
+                                    {post.data.title}
+                                </h2>
+                                <p class="post-card-desc">
+                                    {post.data.description}
+                                </p>
+                                <p class="post-card-date">
+                                    <FormattedDate date={post.data.pubDate} />
+                                </p>
+                            </div>
+                        </a>
+                    ))
+                }
             </div>
 
             <p class="empty-state" id="empty-state" style="display:none;">
@@ -265,7 +290,9 @@ const tagClass = (tag: string) => {
             let visible = 0;
             cards.forEach((card) => {
                 const tags: string[] = JSON.parse(card.dataset.tags ?? "[]");
-                const show = filter === "all" || tags.map((t) => t.toLowerCase()).includes(filter);
+                const show =
+                    filter === "all" ||
+                    tags.map((t) => t.toLowerCase()).includes(filter);
                 card.style.display = show ? "" : "none";
                 if (show) visible++;
             });
