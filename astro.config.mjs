@@ -10,7 +10,7 @@ export default defineConfig({
 	site: 'https://blog.marosik.sk',
 	output: 'static',
 	adapter: cloudflare({
-		imageService: { build: 'compile', runtime: 'passthrough' },
+		imageService: 'passthrough',
 	}),
 	integrations: [mdx(), sitemap()],
 	fonts: [
